@@ -27,7 +27,7 @@ const Cotizacion = styled.p`
 
 function Resultado({ cotizacion }) {
 	return cotizacion === 0 ? (
-		<Mensaje>Elige marca, ano y tipo de seguro</Mensaje>
+		<Mensaje>Elige marca, año y tipo de seguro</Mensaje>
 	) : (
 		<ResultadoCotizacion>
 			<TransitionGroup component="span" className="resultado">
